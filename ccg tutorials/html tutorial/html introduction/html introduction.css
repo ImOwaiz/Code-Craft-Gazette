@@ -1,0 +1,616 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+header{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img{
+    height: 6vw;
+    padding-top:4px;
+    padding-left:15px;
+}
+
+.headermenu ul{
+    padding-top: 0.7vw;
+    padding-right: 2vw;
+}
+.headermenu li{
+    display: inline;
+}
+
+.headermenu a{
+    text-decoration: none;
+    margin-left: 30px;
+    align-items: center;
+    color:black;
+}
+  
+  .headermenu a:hover{
+      color:grey;
+      text-decoration: underline;
+  }
+
+.headermenu i{
+    font-size: 2vw;
+    flex-wrap: 800;
+    margin-left: 30px;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+  
+  .main {
+   width: 100%;
+   height: 100%;
+   display: flex;
+    color:black;
+}
+
+
+.html-tutorial-menu {
+   width: 20%; /* Narrower menu */
+   height: 100vh;/* Set height to viewport height */
+   background-color: rgb(243, 245, 254);
+   overflow-y: auto; /* Enables vertical scrolling */
+   scrollbar-width:thin;
+}
+  
+ .html-tutorial-menu a:visited{
+      color:inherit;
+  }
+
+.html-intro,.html-editor,.html-basic,.html-elements,.hmtl-attributes,.html-paragraph,.html-heading,.html-style,.html-formatting,.html-quotations,.html-comments,.html-colors,.html-css,.html-links,.html-images,.html-favicon,.html-pagetitle,.html-tables,.html-lists,.html-blockinl,.html-div,.html-class,.html-id,.html-iframe,.html-javascript,.html-file-paths,.html-head,.html-layout,.html-responsive,.html-computercode,.html-semantics,.html-style-guide,.html-entities,.html-symbols,.html-emojis,.html-charsets,.html-url-encode,.html-xhtml{
+   width:auto;
+   font-size: 1vw;
+   background-color:white;
+   color: black;
+   padding: 15px;
+   margin: 5px 0;
+   text-align: center;
+   transition: background-color 0.3s, color 0.3s;
+}
+
+.html-home{
+   width:auto;
+   font-size: 1vw;
+   background-color: rgb(21, 21, 21);
+   color: white;
+   padding: 15px;
+   margin: 5px 0;
+   text-align: center;
+   transition: background-color 0.3s, color 0.3s;
+}
+  
+
+.html-home:hover ,.html-intro:hover,.html-editor:hover,.html-basic:hover,.html-elements:hover,.hmtl-attributes:hover,.html-paragraph:hover,.html-heading:hover,.html-style:hover,.html-formatting:hover,.html-quotations:hover,.html-comments:hover,.html-colors:hover,.html-css:hover,.html-links:hover,.html-images:hover,.html-favicon:hover,.html-pagetitle:hover,.html-tables:hover,.html-lists:hover,.html-blockinl:hover,.html-div:hover,.html-class:hover,.html-id:hover,.html-iframe:hover,.html-javascript:hover,.html-file-paths:hover,.html-head:hover,.html-layout:hover,.html-responsive:hover,.html-computercode:hover,.html-semantics:hover,.html-style-guide:hover,.html-entities:hover,.html-symbols:hover,.html-emojis:hover,.html-charsets:hover,.html-url-encode:hover,.html-xhtml:hover {
+   background-color: darkgray;
+   color: white;
+}
+
+.html-home:active ,.html-intro:active,.html-editor:active,.html-basic:active,.html-elements:active,.hmtl-attributes:active,.html-paragraph:active,.html-heading:active,.html-style:active,.html-formatting:active,.html-quotations:active,.html-comments:active,.html-colors:active,.html-css:active,.html-links:active,.html-images:active,.html-favicon:active,.html-pagetitle:active,.html-tables:active,.html-lists:active,.html-blockinl:active,.html-div:active,.html-class:active,.html-id:active,.html-iframe:active,.html-javascript:active,.html-file-paths:active,.html-head:active,.html-layout:active,.html-responsive:active,.html-computercode:active,.html-semantics:active,.html-style-guide:active,.html-entities:active,.html-symbols:active,.html-emojis:active,.html-charsets:active,.html-url-encode:active,.html-xhtml:active {
+   background-color: rgb(21, 21, 21);
+   color: white;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+.html-tutorial-main {
+   width: 80%;
+   height: 100vh;
+   background-color: rgb(248, 249, 255);
+   margin: 5px;
+   box-shadow: 0 0 2px 0 black;
+   overflow-y: auto;
+   border-radius: 15px;
+  padding-bottom:20px;
+}
+  
+  .html-btn-page1 {
+  display:none;
+  }
+  
+  .html-h2-menulist{
+    margin: 10px;
+    color: rgb(14, 99, 6);
+    font-size: 1rem;
+}
+  
+  .topic-head-html-intro{
+   font-size: 60px;
+   width: 100%;
+   text-align: center;
+   color: black;
+}
+
+.previous-next-btn{
+   display: flex;
+   justify-content: space-between;
+   padding-right: 100px;
+   padding-left: 100px;
+}
+
+.previous-next-btn button{
+    height: 50px;
+    width: 100px;
+    font-size: 1.2rem;
+    background-color: rgb(13, 120, 156);
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+
+.previous-next-btn button:hover{
+   background-color: rgb(12, 101, 131);
+}
+
+.html-main-div-1{
+   width: 80%;
+    height: fit-content;
+    background-color: rgb(167, 202, 254);
+    font-family: sans-serif;
+    margin-left: 10%;
+    border-radius: 15px;
+}
+
+.html-main-div-1 h5{
+   font-size: 1.5rem;
+   padding-top: 20px;
+   padding-left: 5px;
+}
+
+.html-main-div-1 li {
+   font-size: 1.3rem;
+   margin-left: 50px;
+   line-height: 50px;
+   
+}
+
+.html-main-div-paragraphs{
+   padding: 5px;
+}
+
+.p-html-heading {
+   font-size: 3rem;
+}
+
+.p-html-heading p{
+   padding-left: 20px;
+   padding-top: 20px;
+   border-top: 1px solid grey;
+}
+
+.example-code-html-intro{
+   width: 90%;
+   height:fit-content;
+   background-color: rgb(225, 225, 225);
+   margin-left: 5%;
+   border-radius: 15px;
+}
+
+.example-code-html-intro h4{
+   font-size: 2rem;
+   padding: 20px;
+}
+
+.example-code-button-compiler{
+    padding: 30px;
+}
+
+.example-code-button-compiler button:hover{
+    background-color: rgb(80, 80, 80);
+}
+
+.example-code-button-compiler button:active{
+   background-color: rgb(49, 49, 49);
+}
+
+.example-code-button-compiler button{
+   height: 60px;
+   width: 180px;
+   border-radius: 15px;
+   font-size: 1.3rem;
+   background-color: rgb(49, 49, 49);
+   color: white;
+}
+
+.inner-example-code-html-intro{
+   margin: 20px;
+   background-color: white;
+   line-height: 40px;
+   border-left: solid 5px rgb(10, 10, 57);
+}
+
+.inner-example-code-html-intro p{
+    padding-left: 10px;
+    font-size: 1.1rem;
+    color: brown;
+}
+
+.code-explaination{
+    margin-top: 40px;
+    width: 100%;
+}
+
+.html-examplecode-exp-tpics ul{
+    line-height: 40px;
+}
+
+.html-examplecode-exp-tpics li{
+   font-size: 1.3rem;
+   margin-left: 30px;
+}
+
+.html-examplecode-exp-tpics span{
+  background-color: rgb(202, 202, 202);
+  color: red;
+}
+
+.code-explaination p{
+   padding-left: 20px;
+   font-size: 2rem;
+}
+
+.div-2-intro{
+   width: 100%;
+   margin-top: 40px;
+   background-color: rgb(167, 202, 254);
+}
+
+.div-2-intro p{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+
+ 
+  /*footer*/
+  
+  .footer{
+   width: 100%;
+   height: fit-content;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   background-color: black;
+   font-family: sans-serif;
+   margin-top:10px;
+}
+
+.all-tutorials{
+   flex: 1 1 30%; /* Adjust the percentage as needed */
+ margin: 10px;
+ text-align: center;
+ padding: 20px;
+ box-sizing: border-box;
+}
+
+.all-tutorials h1{
+   text-align: center;
+   color: white;
+}
+
+.tutorial-links{
+   display: flex;
+   flex-direction: column; /* Arrange links vertically */
+   gap: 15px;
+}
+
+.all-tutorials a {
+   text-decoration: none;
+   color: rgb(205, 203, 203);
+   padding: 5px;
+   font-size: 1rem;
+}
+
+.all-tutorials a:hover {
+     text-decoration: underline;
+     color: rgb(165, 165, 165);
+}
+
+.imp-pages-footr{
+   flex: 1 1 30%; /* Adjust the percentage as needed */
+ margin: 10px;
+ text-align: center;
+ padding: 20px;
+ box-sizing: border-box;
+}
+
+.imp-pages-footr h1{
+   text-align: center;
+   color: white;
+}
+
+.imp-pages-links{
+   display: flex;
+   flex-direction: column; /* Arrange links vertically */
+   gap: 20px;
+}
+
+.imp-pages-links a {
+   text-decoration: none;
+   color: rgb(205, 203, 203);
+   padding: 5px;
+   font-size: 1rem;
+}
+
+.imp-pages-links a:hover {
+   text-decoration: underline;
+   color: rgb(165, 165, 165);
+}
+
+.more-tutorials{
+   flex: 1 1 30%; /* Adjust the percentage as needed */
+   margin: 10px;
+   text-align: center;
+   padding: 20px;
+   box-sizing: border-box;
+}
+
+.more-tutorials h1{
+   text-align: center;
+   color: white;
+}
+
+.more-tutr-links{
+   display: flex;
+   flex-direction: column; /* Arrange links vertically */
+   gap: 20px;
+}
+
+.more-tutr-links a {
+   text-decoration: none;
+   color: rgb(205, 203, 203);
+   padding: 5px;
+   font-size: 1rem;
+}
+
+.more-tutr-links a:hover {
+   text-decoration: underline;
+   color: rgb(165, 165, 165);
+}
+
+.social-links{
+   width: 100%;
+   color: white;
+   border: 2px solid white;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   padding: 0 10px;
+}
+
+.social-links i{
+   font-size: 1.5rem;
+   padding: 0 10px;
+   color: rgb(193, 193, 193);
+}
+
+.social-links p{
+   font-size:0.7rem;
+   margin-left: 30%;
+   color: rgb(193, 193, 193);
+}
+  
+  
+  @media (max-width:1024px) {
+    .html-tutorial-menu {
+      display: none;
+      width: 300px;
+      position: absolute;
+      left: 0;
+      font-size: 5rem;
+      border-top-left-radius: 15px;
+      border-bottom-left-radius: 15px;
+      margin-top: 8px;
+   }
+
+  .html-intro,.html-editor,.html-basic,.html-elements,.hmtl-attributes,.html-paragraph,.html-heading,.html-style,.html-formatting,.html-quotations,.html-comments,.html-colors,.html-css,.html-links,.html-images,.html-favicon,.html-pagetitle,.html-tables,.html-lists,.html-blockinl,.html-div,.html-class,.html-id,.html-iframe,.html-javascript,.html-file-paths,.html-head,.html-layout,.html-responsive,.html-computercode,.html-semantics,.html-style-guide,.html-entities,.html-symbols,.html-emojis,.html-charsets,.html-url-encode,.html-xhtml a {
+      font-size: 1rem;
+     color:black;
+   }
+
+   .html-btn-page1 {
+      display: block;
+      display: flex;
+      justify-content: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+   }
+
+   .html-tutorial-main {
+      width: 100%;
+      border-radius: 15px;
+   }
+    
+    .html-menu-toggle-btn {
+    background-color: rgb(21, 21, 21);
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 1rem;
+    margin-top: 10px;
+      
+    }
+    
+    .html-home{
+       font-size:1rem;
+    }
+    
+ 
+
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ @media (max-width:720px) {
+   .headermenu ul{
+       position: absolute;
+       top: 50px;
+       left: 0;
+       z-index: 1000;
+       right: 0;
+       flex-direction: column;
+       text-align: center;
+       background-color: black;
+       gap: 0;
+       overflow: hidden;
+   }
+   
+   .headermenu ul {
+    padding-top: 0; 
+    padding-right: 2vw;
+   }
+
+   .headermenu ul a{
+       
+       font-weight: bolder;
+       color: white;
+       padding-right: 13vw;
+   }
+
+   .headermenu ul li{
+       padding: 20px;
+       position: relative;
+       bottom: 1.5vw;
+   }
+ 
+   
+ 
+ 
+ .headermenu li{
+     display: flow;
+     padding-bottom: 5%;
+ }
+
+   .headermenu i{
+       font-size: 2rem;
+       flex-wrap: 800;
+       padding-left: 58px;
+       position:relative;
+       top:20px;
+       align-items: center;
+       justify-content: center;
+       display: block;
+   }
+   header img{
+      height: 4rem;
+      padding-top:7px;
+      padding-left:5px;
+  }
+
+    .html-tutorial-main {
+      margin:0;
+      margin-top:10px;
+   }
+   
+   .all-tutorials{
+   flex: 1 1 100%; /* Adjust the percentage as needed */
+}
+
+.imp-pages-footr{
+   flex: 1 1 100%;
+}
+
+.more-tutorials{
+   flex: 1 1 100%;
+}
+
+.social-links p {
+ margin-left: 0;
+}
+
+.more-tutr-links a{
+ font-size:1rem;
+}
+
+.previous-next-btn{
+   display: flex;
+   justify-content: space-between;
+   padding-right: 40px;
+   padding-left: 40px;
+}
+   
+   .topic-head-html-intro{
+   font-size: 30px;
+   width: 100%;
+   text-align: center;
+   color: black;
+}
+   
+   .p-html-heading{
+   font-size: 1.7rem;
+}
+   
+   .html-main-div-1{
+   width: 100%;
+     margin:0;
+   }
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ @media (max-width:420px) {
+   header{
+       height: 60px;
+       width: 100%;
+       display: flex;
+       justify-content: space-between;
+   }
+   
+   header img{
+       height: 4rem;
+       padding-top:7px;
+       padding-left:5px;
+   }
+   
+   .html-btn-page1{
+      margin-top: 20px;
+   }
+
+   .html-tutorial-menu {
+      width: 200px;
+      margin-top: 10px;
+   }
+   
+      .html-h2-menulist{
+      font-size: 0.7rem;
+   }
+   
+   .previous-next-btn{
+      display: flex;
+      justify-content: space-between;
+      padding-right: 40px;
+      padding-left: 40px;
+   }
+
+   .inner-example-code-html-intro p{
+      font-size: 0.8rem;
+      line-height: 30px;
+   }
+   
+}

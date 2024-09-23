@@ -1,4 +1,4 @@
-let menuList = document.getElementById("menuList")
+ let menuList = document.getElementById("menuList")
          menuList.style.maxHeight = "0px";
 
          function toggleMenu(){
@@ -23,3 +23,5 @@ let menuList = document.getElementById("menuList")
         function closePopup(){
             popup.classList.remove("open-popup"); 
          }
+    
+    
