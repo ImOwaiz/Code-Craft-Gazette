@@ -24,7 +24,7 @@ header img{
 }
 
 .headermenu ul{
-    padding-top: 1.5vw;
+    padding-top: 0.7vw;
     padding-right: 2vw;
 }
 .headermenu li{
@@ -44,7 +44,7 @@ header img{
   }
 
   .signupbtn {
-  margin-top: 25px;
+  margin-top: 18px;
   margin-left: 35px;
   }
 
@@ -382,578 +382,84 @@ header img{
    opacity: 0.2;
 }
 
-
-/* python tutorial */
-.py-tutorial-card{
-   width: 100%;
-   height: 500px;
-   background-color: rgb(235, 249, 185);
-   border-radius: 30px;
-   box-shadow: 0 0 10px rgb(173, 173, 173);
-   display: flex;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
+.slider-container {
    position: relative;
-   overflow:hidden; 
-}
-
-.py-card-content{
-   height:100%;
-   width: 50%;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-}
-
-.py-ex-code{
-   height: 100%;
-   width: 50%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
-.py-h1{
    width: 100%;
-   text-align: center;
-   font-size: 1.3rem;
+   max-width: 800px;
+   margin: auto;
+   overflow: hidden;
+   margin-top: 10px;
+ }
+
+ .slider-container h3{
+   font-size: 30px;
    color: black;
-   z-index: 100;
-}
-
-.py-tag-info{
-   width: 100%;
+ }
+ 
+ .slider {
+   display: flex;
+   transition: transform 0.5s ease-in-out;
+ }
+ 
+ .card {
+   flex: 1 0 100%;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
    text-align: center;
-   font-size: 1.5rem;
-   color: black;
-   z-index: 100;
-}
+   padding: 20px;
+   height: 200px;
+ }
 
-.py-btns-all{
-   width: 100%;
-   margin-top: 40px;
-   display: flex;
-   flex-direction: column;
-   gap: 30px;
+ .card h1 {
+   font-size: 40px;
 }
+ 
+ .card p {
+    font-size: 20px;
+ }
 
-.py-learn-btn-div{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
+ #pythoncard{
+   background-color: rgb(253, 219, 219);
+ }
 
-.py-lrn-btn{
-   width: 13rem;
-   height: 3rem;
-   font-size: 1rem;
-   border-radius: 30px;
-   border: none;
-   background-color: rgb(37, 37, 37);
-   color: white;   
-   z-index: 100;
-}
+ #javacard{
+   background-color: rgb(181, 253, 202);
+ }
 
-.py-lrn-btn:hover{
-    background-color: rgb(71, 71, 71);
-}
+ #javascriptcard{
+   background-color: rgb(253, 219, 252);
+ }
 
-.py-lrn-btn:active{
-   background-color: rgb(37, 37, 37);
-}
-
-.py-compiler-btn-div{
-   width: 100%;
-   display: flex;
-   justify-content: center;
-}
-
-.py-compiler-btn{
-   width: 13rem;
-   height: 3rem;
-   font-size: 1rem;
-   border-radius: 30px;
-   background-color: rgb(38, 179, 239);
-   color: rgb(255, 255, 255);
-   z-index: 100;
-}
-
-.py-compiler-btn:hover{
-   background-color: rgb(133, 213, 220);
-}
-
-.py-compiler-btn:active{
-   background-color: rgb(190, 190, 190);
-}
-
-.py-ex-code-outer-wrap{
-   height: 90%;
-   width: 90%;
-   background-color: rgb(218, 218, 218);
-   border-radius: 30px;
-   box-shadow: 0 0 10px rgb(142, 142, 142);
-   display: grid;
-   place-items: center;
-}
-
-.py-ex-code-outer-wrap h3{
-   margin: 0;
-   padding: 0;
-   font-size: 1.6rem;
-}
-
-.py-ex-code-inner-wrap{
-   height:85% ;
-   width: 88%;
-   background-color: white;
-   border-radius: 15px;
-}
-
-.py-ex-code-inner-wrap p{
-    font-family:monospace;
-    font-size: 1.1rem;
-    line-height: 1.4;
-    color: rgb(130, 21, 21);
-}
-
-.py-logo-bg-card{
+ #cppcard{
+   background-color: rgb(219, 253, 224);
+ }
+ 
+ .prev, .next {
    position: absolute;
-   top: 0;
-   right: 70%;
-   height: 100%;
-   object-fit: contain; /* Ensures the image covers the entire div */
-   opacity: 0.1;
-}
-
-/* java tutorial */
-.java-tutorial-card{
-   width: 100%;
-   height: 500px;
-   background-color: rgb(238, 198, 250);
-   border-radius: 30px;
-   box-shadow: 0 0 10px rgb(173, 173, 173);
-   display: flex;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   position: relative;
-   overflow:hidden;
-   margin-top:20px;
-}
-
-.java-card-content{
-   height:100%;
-   width: 50%;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-}
-
-.java-ex-code{
-   height: 100%;
-   width: 50%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
-.java-h1{
-   width: 100%;
-   text-align: center;
-   font-size: 1.5rem;
-   color: black;
-   z-index: 100;
-}
-
-.java-tag-info{
-   width: 100%;
-   text-align: center;
-   font-size: 1.5rem;
-   color: black;
-   z-index: 100;
-}
-
-.java-btns-all{
-   width: 100%;
-   margin-top: 40px;
-   display: flex;
-   flex-direction: column;
-   gap: 30px;
-}
-
-.java-learn-btn-div{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.java-lrn-btn{
-   width: 13rem;
-   height: 3rem;
-   font-size: 1rem;
-   border-radius: 30px;
-   border: none;
-   background-color: rgb(37, 37, 37);
-   color: white;   
-   z-index: 100;
-}
-
-.java-lrn-btn:hover{
-    background-color: rgb(71, 71, 71);
-}
-
-.java-lrn-btn:active{
-   background-color: rgb(37, 37, 37);
-}
-
-.java-compiler-btn-div{
-   width: 100%;
-   display: flex;
-   justify-content: center;
-}
-
-.java-compiler-btn{
-   width: 13rem;
-   height: 3rem;
-   font-size: 1rem;
-   border-radius: 30px;
-   background-color: rgb(38, 179, 239);
-   color: rgb(255, 255, 255);
-   z-index: 100;
-}
-
-.java-compiler-btn:hover{
-   background-color: rgb(133, 213, 220);
-}
-
-.java-compiler-btn:active{
-   background-color: rgb(190, 190, 190);
-}
-
-.java-ex-code-outer-wrap{
-   height: 90%;
-   width: 90%;
-   background-color: rgb(218, 218, 218);
-   border-radius: 30px;
-   box-shadow: 0 0 10px rgb(142, 142, 142);
-   display: grid;
-   place-items: center;
-}
-
-.java-ex-code-outer-wrap h3{
-   margin: 0;
-   padding: 0;
-   font-size: 1.6rem;
-}
-
-.java-ex-code-inner-wrap{
-   height:85% ;
-   width: 88%;
-   background-color: white;
-   border-radius: 15px;
-}
-
-.java-ex-code-inner-wrap p{
-    font-family:monospace;
-    font-size: 1.1rem;
-    line-height: 2;
-    color: rgb(130, 21, 21);
-}
-
-.java-logo-bg-card{
-   position: absolute;
-   top: 0;
-   right: 70%;
-   height: 100%;
-   object-fit: contain; /* Ensures the image covers the entire div */
-   opacity: 0.2;
-}
-  
-  
-/* kotlin tutorial */
-
-.kotlin-tutorial-card{
-   width: 100%;
-   height: 500px;
-   background-color: rgb(252, 188, 188);
-   border-radius: 30px;
-   box-shadow: 0 0 10px rgb(173, 173, 173);
-   display: flex;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   position: relative;
-   overflow:hidden;
-   margin-top: 20px; 
-}
-
-.kotlin-card-content{
-   height:100%;
-   width: 50%;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-}
-
-.kotlin-ex-code{
-   height: 100%;
-   width: 50%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
-.kotlin-h1{
-   width: 100%;
-   text-align: center;
-   font-size: 1.3rem;
-   color: black;
-   z-index: 100;
-}
-
-.kotlin-tag-info{
-   width: 100%;
-   text-align: center;
-   font-size: 1.5rem;
-   color: black;
-   z-index: 100;
-}
-
-.kotlin-btns-all{
-   width: 100%;
-   margin-top: 40px;
-   display: flex;
-   flex-direction: column;
-   gap: 30px;
-}
-
-.kotlin-learn-btn-div{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.kotlin-lrn-btn{
-   width: 13rem;
-   height: 3rem;
-   font-size: 1rem;
-   border-radius: 30px;
-   border: none;
-   background-color: rgb(37, 37, 37);
-   color: white;   
-   z-index: 100;
-}
-
-.kotlin-lrn-btn:hover{
-    background-color: rgb(71, 71, 71);
-}
-
-.kotlin-lrn-btn:active{
-   background-color: rgb(37, 37, 37);
-}
-
-.kotlin-compiler-btn-div{
-   width: 100%;
-   display: flex;
-   justify-content: center;
-}
-
-.kotlin-compiler-btn{
-   width: 13rem;
-   height: 3rem;
-   font-size: 1rem;
-   border-radius: 30px;
-   background-color: rgb(38, 179, 239);
-   color: rgb(255, 255, 255);
-   z-index: 100;
-}
-
-.kotlin-compiler-btn:hover{
-   background-color: rgb(133, 213, 220);
-}
-
-.kotlin-compiler-btn:active{
-   background-color: rgb(190, 190, 190);
-}
-
-.kotlin-ex-code-outer-wrap{
-   height: 90%;
-   width: 90%;
-   background-color: rgb(218, 218, 218);
-   border-radius: 30px;
-   box-shadow: 0 0 10px rgb(142, 142, 142);
-   display: grid;
-   place-items: center;
-}
-
-.kotlin-ex-code-outer-wrap h3{
-   margin: 0;
-   padding: 0;
-   font-size: 1.6rem;
-}
-
-.kotlin-ex-code-inner-wrap{
-   height:85% ;
-   width: 88%;
-   background-color: white;
-   border-radius: 15px;
-}
-
-.kotlin-ex-code-inner-wrap p{
-    font-family:monospace;
-    font-size: 1.1rem;
-    line-height: 2;
-    color: rgb(130, 21, 21);
-}
-
-.kotlin-logo-bg-card{
-   position: absolute;
-   top: 0;
-   right: 60%;
-   height: 100%;
-   object-fit: contain; /* Ensures the image covers the entire div */
-   opacity: 0.1;
-}
-  
-  
-  /* more tutorials CSS */
-
-.moretutorials{
-   width: 100%;
-   background-color: white;
-   display: flex;
-   flex-wrap: wrap;
-   margin-top: 20px;
-  color:black;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.moretutorials button{
-   height: 40px;
-   width: 200px;
-   border-radius: 30px;
-   background-color: rgb(29, 29, 29);
+   top: 60%;
+   transform: translateY(-50%);
+   background-color: rgba(151, 151, 151, 0.5);
    color: white;
-   margin-top: 20px;
-}
+   border: none;
+   cursor: pointer;
+   padding: 10px;
+   font-size: 40px;
+   border-radius: 60px;
+ }
 
-.ctutorialcard{
-   flex: 1 1 30%; /* Adjust the percentage as needed */
-   margin: 10px;
-   background-color: lightblue;
-   text-align: center;
-   padding: 20px;
-   border-radius: 15px;
-   box-shadow: 0 0 10px rgb(47, 47, 47);
-}
+ .prev:hover, .next:hover {
+   background-color: rgba(99, 99, 99, 0.5);
 
-.cpptutorialcard{
-   flex: 1 1 30%; /* Adjust the percentage as needed */
-  margin: 10px;
-  background-color: rgb(241, 216, 89);
-  text-align: center;
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 0 10px rgb(47, 47, 47);
-}
+ }
+ 
+ .prev {
+   left: 0;
+ }
+ 
+ .next {
+   right: 0;
+ }
+ 
 
-.csstutorialcard{
-   flex: 1 1 30%; /* Adjust the percentage as needed */
-  margin: 10px;
-  background-color: rgb(148, 143, 211);
-  text-align: center;
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 0 10px rgb(47, 47, 47);
-}
-
-.javascripttutorialcard{
-   flex: 1 1 30%; /* Adjust the percentage as needed */
-  margin: 10px;
-  background-color: rgb(212, 126, 180);
-  text-align: center;
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 0 10px rgb(47, 47, 47);
-}
-
-.reacttutorialcard{
-   flex: 1 1 30%; /* Adjust the percentage as needed */
-  margin: 10px;
-  background-color: rgb(81, 209, 147);
-  text-align: center;
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 0 10px rgb(47, 47, 47);
-}
-
-.nodejstutorialcard{
-   flex: 1 1 30%; /* Adjust the percentage as needed */
-  margin: 10px;
-  background-color: rgb(213, 216, 56);
-  text-align: center;
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 0 10px rgb(47, 47, 47);
-}
-
-.sqltutorialcard{
-   flex: 1 1 30%; /* Adjust the percentage as needed */
-   margin: 10px;
-   background-color: rgb(249, 178, 96);
-   text-align: center;
-   padding: 20px;
-   border-radius: 15px;
-   box-shadow: 0 0 10px rgb(47, 47, 47);
-}
-
-.awstutorialcard{
-   flex: 1 1 30%; /* Adjust the percentage as needed */
-  margin: 10px;
-  background-color: rgb(248, 102, 102);
-  text-align: center;
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 0 10px rgb(47, 47, 47);
-}
-
-.phptutorialcard{
-   flex: 1 1 30%; /* Adjust the percentage as needed */
-  margin: 10px;
-  background-color: rgb(140, 244, 149);
-  text-align: center;
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 0 10px rgb(47, 47, 47);
-}
-
-.gittutorialcard{
-   flex: 1 1 30%; /* Adjust the percentage as needed */
-   margin: 10px;
-   background-color: rgb(230, 151, 33);
-   text-align: center;
-   padding: 20px;
-   border-radius: 15px;
-   box-shadow: 0 0 10px rgb(47, 47, 47);
-}
-
-.mongodbtutorialcard{
-   flex: 1 1 30%; /* Adjust the percentage as needed */
-  margin: 10px;
-  background-color: rgb(238, 116, 249);
-  text-align: center;
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 0 10px rgb(47, 47, 47);
-}
-
-.jquerytutorialcard{
-   flex: 1 1 30%; /* Adjust the percentage as needed */
-  margin: 10px;
-  background-color: lightblue;
-  text-align: center;
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 0 10px rgb(47, 47, 47);
-}
-  
-  
-  
   /*footer*/
   
   .footer{
@@ -964,7 +470,7 @@ header img{
     justify-content: space-between;
     background-color: black;
     font-family: sans-serif;
-    margin-top:10px;
+    margin-top:30px;
 }
 
 .all-tutorials{

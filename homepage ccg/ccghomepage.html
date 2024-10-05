@@ -15,12 +15,12 @@
    <div class="main">
       <header>
          <img src="../logos/ccglogo.png">
-        
-       
+
+
          <div class="headermenu">
             <div class="signupbtn">
                <button onclick="window.location.href='../authentication pages/index.html';">SignUp</button>
-             </div>
+            </div>
             <ul id="menuList">
                <li><a href="#">Home</a></li>
                <li><a href="https://www.codecraftgazette.in/p/mission.html">Mission</a></li>
@@ -28,7 +28,7 @@
                <li><a href="https://www.codecraftgazette.in/p/contact-us.html">Contact Us</a></li>
                <li><a href="https://www.codecraftgazette.in/p/about-us.html">About Us</a></li>
             </ul>
-            
+
             <div class="menu-icon">
                <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
             </div>
@@ -51,8 +51,7 @@
       <div class="direct-link-intro">
          <a href="#">Confuse Where To Start ?</a>
       </div>
-      <img class="sticker-home" src="https://res.cloudinary.com/ddx4sqmpj/image/upload/v1726203226/stick.1_gpatff.png"
-         alt="code crafting">
+      <img class="sticker-home" src="../logos/stick.1.png" alt="code crafting">
       <img class="sticker2-home" src="https://res.cloudinary.com/ddx4sqmpj/image/upload/v1726203233/stick.2_lpkykm.png"
          alt="code crafting">
    </div>
@@ -67,9 +66,7 @@
 
    <div class="tutorials">
       <div class="html-tutorial-card">
-         <img class="html-logo-bg-card"
-            src="https://res.cloudinary.com/ddx4sqmpj/image/upload/v1726400845/modul-lettering-html-in-plate-text_qyrutn.png"
-            alt="html-tutorial">
+         <img class="html-logo-bg-card" src="../logos/modul-lettering-html-in-plate-text.png" alt="html-tutorial">
          <div class="html-card-content">
             <div class="html-h1">
                <h1>HTML</h1>
@@ -79,9 +76,7 @@
             </div>
             <div class="html-btns-all">
                <div class="html-learn-btn-div">
-                  <button class="html-lrn-btn"
-                     onclick="window.location.href='https://www.codecraftgazette.in/2024/09/html-home.html?m=1';">Learn
-                     HTML</button>
+                  <button class="html-lrn-btn" onclick="window.location.href='../ccg tutorials/html tutorial/html tutorial.html';">HTML</button>
                </div>
                <div class="html-compiler-btn-div">
                   <button class="html-compiler-btn"
@@ -113,282 +108,32 @@
       </div>
    </div>
 
-   <p>⚙️ We Are Currently Working on This Tutorials — Stay Tuned for Its Release.</p>
-
-
-   <!-- PYTHON TUTORIAL -->
-
-   <div class="py-tutorial-card">
-      <img class="py-logo-bg-card"
-         src="https://res.cloudinary.com/ddx4sqmpj/image/upload/v1726412358/kindpng_1595848_ikhshn.png"
-         alt="python-tutorial">
-      <div class="py-card-content">
-         <div class="py-h1">
-            <h1>PYTHON</h1>
-         </div>
-         <div class="py-tag-info">
-            <p>A popular programming Language</p>
-         </div>
-         <div class="py-btns-all">
-            <div class="py-learn-btn-div">
-               <button class="py-lrn-btn" onclick="openPopup()">Learn Python</button>
-            </div>
-            <div class="py-compiler-btn-div">
-               <button class="py-compiler-btn">Try Python Compiler</button>
-            </div>
-         </div>
+   <div class="slider-container">
+      <h3>The tutorials we are working on... </h3>
+      <div class="slider">
+        <div class="card" id="pythoncard">
+          <h1>Python</h1>
+          <p>A popular programming language.</p>
+        </div>
+        <div class="card" id="javacard">
+          <h1>Java</h1>
+          <p>A popular programming language.</p>
+        </div>
+        <div class="card" id="javascriptcard">
+          <h1>Javascript</h1>
+          <p>The language for programming web pages</p>
+        </div>
+        <div class="card" id="cppcard">
+         <h1>C++</h1>
+         <p>A popular programming language.</p>
+       </div>
       </div>
-      <div class="py-ex-code">
-         <div class="py-ex-code-outer-wrap">
-            <h3>
-               Python Example :
-            </h3>
-            <div class="py-ex-code-inner-wrap">
-               <p>
-                  print("Hello, World!")
-               </p>
-            </div>
-         </div>
-      </div>
-   </div>
+      <button class="prev" onclick="moveSlide(1)">&#10094;</button>
+      <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+    
+  
 
-   <!-- JAVA tutorial -->
-
-   <div class="java-tutorial-card">
-      <img class="java-logo-bg-card"
-         src="https://res.cloudinary.com/ddx4sqmpj/image/upload/v1726472560/java-logo-transparent-png_rmjile.png"
-         alt="JAVA-tutorial">
-      <div class="java-card-content">
-         <div class="java-h1">
-            <h1>JAVA</h1>
-         </div>
-         <div class="java-tag-info">
-            <p>A popular programming Language</p>
-         </div>
-         <div class="java-btns-all">
-            <div class="java-learn-btn-div">
-               <button class="java-lrn-btn" onclick="openPopup()">Learn JAVA</button>
-            </div>
-            <div class="java-compiler-btn-div">
-               <button class="java-compiler-btn">Try JAVA Compiler</button>
-            </div>
-         </div>
-      </div>
-      <div class="java-ex-code">
-         <div class="java-ex-code-outer-wrap">
-            <h3>
-               JAVA Example :
-            </h3>
-            <div class="java-ex-code-inner-wrap">
-               <p>
-                  public class HelloWorld { <br>
-                  &emsp;&emsp;&emsp;&emsp;public static void main(String[] args) { <br>
-                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;System.out.println("Hello, World!");<br>
-                  &emsp;&emsp;&ensp; } <br>
-                  }
-
-               </p>
-            </div>
-         </div>
-      </div>
-   </div>
-
-
-   <!--Kotlin Tutorial -->
-
-   <div class="kotlin-tutorial-card">
-      <img class="kotlin-logo-bg-card"
-         src="https://res.cloudinary.com/ddx4sqmpj/image/upload/v1726511884/6619d726516ac-Kotlin_wisjbl.png"
-         alt="KOTLIN-tutorial">
-      <div class="kotlin-card-content">
-         <div class="kotlin-h1">
-            <h1>KOTLIN</h1>
-         </div>
-         <div class="kotlin-tag-info">
-            <p>A popular programming Language</p>
-         </div>
-         <div class="kotlin-btns-all">
-            <div class="kotlin-learn-btn-div">
-               <button class="kotlin-lrn-btn" onclick="openPopup()">Learn Kotlin</button>
-            </div>
-            <div class="kotlin-compiler-btn-div">
-               <button class="kotlin-compiler-btn">Try Kotlin Compiler</button>
-            </div>
-         </div>
-      </div>
-      <div class="kotlin-ex-code">
-         <div class="kotlin-ex-code-outer-wrap">
-            <h3>
-               Kotlin Example :
-            </h3>
-            <div class="kotlin-ex-code-inner-wrap">
-               <p>
-                  fun main() { <br>
-                  &emsp; &emsp; println("Hello, World!") <br>
-                  }
-               </p>
-            </div>
-         </div>
-      </div>
-   </div>
-
-
-   <!-- more tutorials -->
-
-   <div class="moretutorials">
-      <div class="ctutorialcard">
-         <div class="c-h1">
-            <h1>C</h1>
-         </div>
-         <div class="c-p">
-            <p>A programming language</p>
-         </div>
-         <div class="c-btn">
-            <button onclick="openPopup()">Learn C</button>
-         </div>
-      </div>
-      <div class="cpptutorialcard">
-         <div class="cpp-h1">
-            <h1>C++</h1>
-         </div>
-         <div class="cpp-p">
-            <p>A programming language</p>
-         </div>
-         <div class="cpp-btn">
-            <button onclick="openPopup()">Learn C++</button>
-         </div>
-      </div>
-
-      <!-- css -->
-      <div class="csstutorialcard">
-         <div class="css-h1">
-            <h1>CSS</h1>
-         </div>
-         <div class="css-p">
-            <p>The language for styling web pages</p>
-         </div>
-         <div class="css-btn">
-            <button onclick="openPopup()">Learn CSS</button>
-         </div>
-      </div>
-
-      <!-- Javascript -->
-      <div class="javascripttutorialcard">
-         <div class="javascript-h1">
-            <h1>Javascript</h1>
-         </div>
-         <div class="javascript-p">
-            <p>The language for programming web pages</p>
-         </div>
-         <div class="javascript-btn">
-            <button onclick="openPopup()">Learn Javascript</button>
-         </div>
-      </div>
-
-      <!-- react -->
-      <div class="reacttutorialcard">
-         <div class="react-h1">
-            <h1>React</h1>
-         </div>
-         <div class="react-p">
-            <p>A JS library for developing web pages</p>
-         </div>
-         <div class="react-btn">
-            <button onclick="openPopup()">Learn React</button>
-         </div>
-      </div>
-
-      <!-- node.js -->
-      <div class="nodejstutorialcard">
-         <div class="node-h1">
-            <h1>Node.js</h1>
-         </div>
-         <div class="node-p">
-            <p>JS runtime environment</p>
-         </div>
-         <div class="node-btn">
-            <button onclick="openPopup()">Learn Node.js</button>
-         </div>
-      </div>
-
-      <!-- sql -->
-      <div class="sqltutorialcard">
-         <div class="sql-h1">
-            <h1>SQL</h1>
-         </div>
-         <div class="sql-p">
-            <p>Structured Query Language</p>
-         </div>
-         <div class="sql-btn">
-            <button onclick="openPopup()">Learn SQL</button>
-         </div>
-      </div>
-
-      <!-- aws -->
-      <div class="awstutorialcard">
-         <div class="aws-h1">
-            <h1>AWS</h1>
-         </div>
-         <div class="aws-p">
-            <p>A cloud computing platform</p>
-         </div>
-         <div class="aws-btn">
-            <button onclick="openPopup()">Learn AWS</button>
-         </div>
-      </div>
-
-      <!-- php -->
-      <div class="phptutorialcard">
-         <div class="php-h1">
-            <h1>PHP</h1>
-         </div>
-         <div class="php-p">
-            <p>A web server programming language</p>
-         </div>
-         <div class="php-btn">
-            <button onclick="openPopup()">Learn PHP</button>
-         </div>
-      </div>
-
-      <!-- git -->
-      <div class="gittutorialcard">
-         <div class="git-h1">
-            <h1>GIT</h1>
-         </div>
-         <div class="git-p">
-            <p> A distributed version control system</p>
-         </div>
-         <div class="git-btn">
-            <button onclick="openPopup()">Learn GIT</button>
-         </div>
-      </div>
-
-      <!-- mongodb -->
-      <div class="mongodbtutorialcard">
-         <div class="mongodb-h1">
-            <h1>MongoDB</h1>
-         </div>
-         <div class="mongodb-p">
-            <p>Document-oriented NoSQL database </p>
-         </div>
-         <div class="mongodb-btn">
-            <button onclick="openPopup()">Learn MongoDB</button>
-         </div>
-      </div>
-
-      <!-- jquery -->
-      <div class="jquerytutorialcard">
-         <div class="jquery-h1">
-            <h1>JQuery</h1>
-         </div>
-         <div class="jquery-p">
-            <p>A JS library for developing web pages</p>
-         </div>
-         <div class="jquery-btn">
-            <button onclick="openPopup()">Learn JQuery</button>
-         </div>
-      </div>
-   </div>
    <div class="footer">
       <div class="all-tutorials">
          <h1>Tutorials</h1>
